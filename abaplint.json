@@ -34,7 +34,7 @@
     "method_implemented_twice": true,
     "parser_error": true,
     "parser_missing_space": true,
-    "superclass_final": true,
+    "superclass_final": false,
     "unknown_types": true,
     "xml_consistency": true
   }
