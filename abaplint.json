@@ -16,7 +16,7 @@
   ],
   "rename": {
     "output": "output",
-    "patterns": [{"type": "CLAS|INTF", "oldName": "z(.*)_excel", "newName": "/abc/$1_excel"}]
+    "patterns": [{"type": "CLAS|INTF", "oldName": "z(.*)_excel", "newName": "/abc/$1"}]
   },
   "syntax": {
     "version": "v702",

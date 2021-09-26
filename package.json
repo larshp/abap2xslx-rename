@@ -7,7 +7,7 @@
   "scripts": {
     "clone": "rm -rf abap2xlsx && git clone https://github.com/sapmentors/abap2xlsx.git && rm -rf input && mkdir input && cp abap2xlsx/src/*.* input",
     "lint": "abaplint",
-    "rename": "rm -rf output && abaplint--rename"
+    "rename": "rm -rf output && abaplint --rename"
   },
   "repository": {
     "type": "git",
