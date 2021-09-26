@@ -1,0 +1,24 @@
+{
+  "name": "abap2xslx-rename",
+  "version": "1.0.0",
+  "private": true,
+  "description": "rename test",
+  "main": "index.js",
+  "scripts": {
+    "clone": "rm -rf abap2xlsx && git clone https://github.com/sapmentors/abap2xlsx.git && rm -rf input && mkdir input && cp abap2xlsx/src/*.* input",
+    "rename": "rm -rf output && abaplint abaplint.json --rename"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larshp/abap2xslx-rename.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larshp/abap2xslx-rename/issues"
+  },
+  "homepage": "https://github.com/larshp/abap2xslx-rename#readme",
+  "dependencies": {
+    "abaplint": "^2.29.0"
+  }
+}

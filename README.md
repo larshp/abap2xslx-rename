@@ -1,2 +1,12 @@
 # abap2xslx-rename
-rename test
+
+Prerequisites: NodeJS 14+
+
+Running:
+```
+npm install
+npm run clone
+npm run rename
+```
+
+Folder `output` will contain the renamed files
