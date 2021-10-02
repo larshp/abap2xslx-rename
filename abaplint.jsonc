@@ -17,9 +17,9 @@
   "rename": {
     "output": "output",
     "patterns": [
-      {"type": "CLAS|INTF", "oldName": "z(.*)_excel", "newName": "/abc/$1"}
-      // {"type": "DOMA", "oldName": "zexcel_", "newName": "/abc/"}
-      // {"type": "DTEL", "oldName": "zexcel_", "newName": "/abc/"}
+//      {"type": "CLAS|INTF", "oldName": "z(.*)_excel", "newName": "/abc/$1"},
+      {"type": "DOMA", "oldName": "zexcel_", "newName": "/abc/"},
+      {"type": "DTEL", "oldName": "zexcel_", "newName": "/abc/"}
     ]
   },
   "syntax": {
