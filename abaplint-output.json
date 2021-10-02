@@ -1,6 +1,6 @@
 {
   "global": {
-    "files": "/input/**/*.*",
+    "files": "/output/**/*.*",
     "exclude": [],
     "skipGeneratedGatewayClasses": true,
     "skipGeneratedPersistentClasses": true,
@@ -15,11 +15,6 @@
     }
   ],
   "rename": {
-    "output": "output",
-    "patterns": [
-      {"type": "CLAS|INTF", "oldName": "z(.*)_excel", "newName": "/abc/$1"},
-      {"type": "DTEL", "oldName": "zexcel_", "newName": "/abc/"}
-    ]
   },
   "syntax": {
     "version": "v702",

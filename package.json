@@ -7,6 +7,7 @@
   "scripts": {
     "clone": "rm -rf abap2xlsx && git clone https://github.com/sapmentors/abap2xlsx.git && rm -rf input && mkdir input && cp abap2xlsx/src/*.* input",
     "lint": "abaplint",
+    "lint-output": "abaplint abaplint-output.json",
     "rename": "rm -rf output && abaplint --rename"
   },
   "repository": {
@@ -20,6 +21,6 @@
   },
   "homepage": "https://github.com/larshp/abap2xslx-rename#readme",
   "dependencies": {
-    "@abaplint/cli": "^2.79.8"
+    "@abaplint/cli": "^2.79.10"
   }
 }
