@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/larshp/abap2xslx-rename#readme",
   "dependencies": {
-    "@abaplint/cli": "^2.79.16"
+    "@abaplint/cli": "^2.79.18"
   }
 }
